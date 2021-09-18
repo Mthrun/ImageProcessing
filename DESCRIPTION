@@ -1,0 +1,17 @@
+Package: ImageProcessing
+Type: Package
+Title: Image Processing for Object Detection
+Version: 0.0.1
+Date: 2021-09-12
+Authors@R: c(person("Michael", "Thrun", email= "m.thrun@gmx.net",role=c("aut","cre","cph"), comment = c(ORCID = "0000-0001-9542-5543")))
+Maintainer: Michael Thrun <m.thrun@gmx.net>
+Description: Simple processing of images for object detection.
+License: GPL-3
+Imports: imager, abind, Matrix
+Suggests: jpeg
+LinkingTo: 
+Depends: R (>= 3.5)
+LazyLoad: yes
+LazyData: TRUE
+URL: http://www.deepbionics.org
+BugReports: https://github.com/Mthrun/ImageProcessing/issues
